@@ -1,34 +1,52 @@
 img {
     margin: 10px;
 }
-body {
-    background: rgb(217, 252, 247);
-    width: auto;
-}
+
 ul {
     background: rgb(245, 243, 243);
 }
-.form-container, .portfolio, .portfolio-head {
+
+.form-container,
+.portfolio,
+.portfolio-head {
     background: rgb(245, 243, 243);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 #000;
     margin: 30px 0 0 0;
 }
+
+.about-me {
+    background: rgb(245, 243, 243);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+    margin: 2rem 0 0 2rem;
+}
+
 .portfolio {
     padding-left: 10px;
 }
+
 footer {
     font-size: 25px;
     text-align: center;
     color: lightgray;
 }
+
 .figcaption {
-    margin-left: 5rem;
+    font-size: 20px;
+    margin-left: 2%;
 }
-p, h3, h5 {
+
+p,
+h3,
+h5 {
     padding-left: 7%;
+    font-family: 'Noto Sans', sans-serif;
 }
+
 h1 {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }

@@ -16,13 +16,15 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
   </script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Roboto:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Contact Info</title>
 </head>
 
-<body>
+<body class="bg-success">
   <!-- Nav bar from Bootstrap, links between the 3 different pages -->
-  <ul class="nav nav-tabs">
+  <nav class="sticky-top">
+  <ul class="nav nav-tabs fixed-top">
     <!-- Link and reference anchor for main page -->
     <li class="nav-item">
       <a class="nav-link" href="index.html">Main</a>
@@ -36,7 +38,8 @@
       <a class="nav-link active" href="contact.html">Contact</a>
     </li>
   </ul>
-  <article class="container-fluid">
+  </nav>
+  <article class="container-fluid mt-3">
     <div class="row contact-form">
       <!-- Setting grid and column size, adjusted for device responsiveness -->
       <section class="col-xs-12 col-sm-12 col-md-12 col-lg-6 py-3 mb-3">
